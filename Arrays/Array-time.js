@@ -6,7 +6,8 @@
 
 const time = ["Mark" , "Grayson" , true,     56]
      // indices  0        1          2        3
+          time [55] // undefinied
 
-     console.log(time)
-     console.log(time[1])
-     console.log(time[32])
+   for (const jogador of time) {
+     console.log ("jogador: "+jogador)
+   }
