@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+</head>
+<body style="margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f8fafc; color: #1e293b;">
+
+    <!-- Barra de Navegação -->
+    <nav style="display: flex; justify-content: space-between; align-items: center; padding: 16px 24px; background-color: #ffffff; border-bottom: 1px solid #e2e8f0; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+        <a href="/" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: #4f46e5; font-weight: 700; font-size: 20px;">
+            <!-- Ícone de Sacola de Compras (SVG) -->
+            <svg xmlns="http://w3.org" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><line x1="3" x2="21" y1="6" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+            <span>FashionStore</span>
+        </a>
+        <div style="display: flex; gap: 20px; align-items: center;">
+            <a href="/compras" style="text-decoration: none; color: #64748b; font-weight: 500; font-size: 15px; display: flex; align-items: center; gap: 6px;">
+                <!-- Ícone de Loja (SVG) -->
+                <svg xmlns="http://w3.org" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><line x1="3" x2="21" y1="6" y2="6"/></svg>
+                Navegar para Compras
+            </a>
+            <a href="/erro" style="text-decoration: none; color: #64748b; font-weight: 500; font-size: 15px; display: flex; align-items: center; gap: 4px;">
+                <!-- Ícone de Alerta (SVG) -->
+                <svg xmlns="http://w3.org" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></svg>
+                Página de Erro
+            </a>
+        </div>
+    </nav>
+
+    <!-- Conteúdo Principal / Banner Hero -->
+    <main style="max-width: 1200px; margin: 40px auto 60px auto; padding: 0 24px;">
+        
+        <!-- Bloco de Destaque com Espaço Reservado para Banner -->
+        <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05); display: flex; flex-direction: column; min-height: 400px;">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); flex-grow: 1;">
+                
+                <!-- Textos de Boas-Vindas -->
+                <div style="padding: 48px; display: flex; flex-direction: column; justify-content: center; align-items: flex-start;">
+                    <span style="background-color: #e0e7ff; color: #4f46e5; font-size: 14px; font-weight: 600; padding: 6px 12px; border-radius: 9999px; margin-bottom: 16px;">Nova Coleção 2026</span>
+                    <h3 style="margin: 0 0 16px 0; font-size: 42px; font-weight: 800; letter-spacing: -1px; color: #0f172a; line-height: 1.1;">Página Inicial</h3>
+                    <p style="margin: 0 0 32px 0; color: #64748b; font-size: 18px; line-height: 1.6;">Bem-vindo(a) à home! Explore as últimas tendências do mundo da moda com a sofisticação e o conforto que você merece.</p>
+                    
+                    <a href="/compras" style="display: inline-flex; align-items: center; gap: 8px; background-color: #4f46e5; color: #ffffff; text-decoration: none; padding: 14px 28px; border-radius: 8px; font-weight: 600; font-size: 16px; box-shadow: 0 4px 6px -1px rgba(79, 70, 229, 0.2); transition: all 0.2s;">
+                        Ver Produtos
+                        <!-- Ícone de Seta (SVG) -->
+                        <svg xmlns="http://w3.org" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                </div>
+
+                <!-- Espaço Reservado para Imagem/Banner Principal -->
+                <div style="background-color: #f1f5f9; display: flex; align-items: center; justify-content: center; color: #94a3b8; font-size: 16px; font-weight: 500; min-height: 300px;">
+                    <div style="text-align: center;">
+                        <svg xmlns="http://w3.org" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 8px; color: #cbd5e1;"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+                        <div>[ Espaço Reservado para Banner Hero ]</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Seção Adicional: Categorias em Destaque -->
+        <div style="margin-top: 48px; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+            <div style="background-color: #ffffff; padding: 24px; border: 1px solid #e2e8f0; border-radius: 12px; text-align: center;">
+                <div style="width: 48px; height: 48px; background-color: #eff6ff; color: #3b82f6; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px auto;">
+                    <svg xmlns="http://w3.org" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/><line x1="16" y1="8" x2="2" y2="22"/><line x1="17.5" y1="15" x2="9" y2="15"/></svg>
+                </div>
+                <h4 style="margin: 0 0 8px 0; font-size: 16px; font-weight: 600;">Masculino</h4>
+                <p style="margin: 0; color: #64748b; font-size: 14px;">Estilo casual e alfaiataria moderna.</p>
+            </div>
+            
+            <div style="background-color: #ffffff; padding: 24px; border: 1px solid #e2e8f0; border-radius: 12px; text-align: center;">
+                <div style="width: 48px; height: 48px; background-color: #fdf2f8; color: #ec4899; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px auto;">
+                    <svg xmlns="http://w3.org" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22a7 7 0 1 0 0-14 7 7 0 0 0 0 14Z"/><path d="M12 14v8"/><path d="M9 18h6"/><path d="M12 2v4"/></svg>
+                </div>
+                <h4 style="margin: 0 0 8px 0; font-size: 16px; font-weight: 600;">Feminino</h4>
+                <p style="margin: 0; color: #64748b; font-size: 14px;">Peças versáteis para o dia a dia.</p>
+            </div>
+
+            <div style="background-color: #ffffff; padding: 24px; border: 1px solid #e2e8f0; border-radius: 12px; text-align: center;">
+                <div style="width: 48px; height: 48px; background-color: #f0fdf4; color: #22c55e; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px auto;">
+                    <svg xmlns="http://w3.org" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 11 4-7 4 7Z"/><path d="M17.5 19a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Z"/><rect width="6" height="6" x="3" y="13" rx="1"/></svg>
+                </div>
+                <h4 style="margin: 0 0 8px 0; font-size: 16px; font-weight: 600;">Acessórios</h4>
+                <p style="margin: 0; color: #64748b; font-size: 14px;">O toque final ideal para o seu visual.</p>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+</html>

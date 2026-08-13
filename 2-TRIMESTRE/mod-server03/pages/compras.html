@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras de Roupas</title>
+</head>
+<body style="margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f8fafc; color: #1e293b;">
+
+    <!-- Barra de Navegação -->
+    <nav style="display: flex; justify-content: space-between; align-items: center; padding: 16px 24px; background-color: #ffffff; border-bottom: 1px solid #e2e8f0; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+        <a href="/" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: #4f46e5; font-weight: 700; font-size: 20px;">
+            <!-- Ícone de Sacola de Compras (SVG) -->
+            <svg xmlns="http://w3.org" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><line x1="3" x2="21" y1="6" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+            <span>FashionStore</span>
+        </a>
+        <div style="display: flex; gap: 20px; align-items: center;">
+            <a href="/" style="text-decoration: none; color: #4f46e5; font-weight: 500; font-size: 15px;">Página Inicial</a>
+            <a href="/erro" style="text-decoration: none; color: #64748b; font-weight: 500; font-size: 15px; display: flex; align-items: center; gap: 4px;">
+                <!-- Ícone de Alerta (SVG) -->
+                <svg xmlns="http://w3.org" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></svg>
+                Página de Erro
+            </a>
+        </div>
+    </nav>
+
+    <!-- Cabeçalho de Boas-Vindas -->
+    <header style="max-width: 1200px; margin: 40px auto 20px auto; padding: 0 24px;">
+        <h3 style="margin: 0 0 8px 0; font-size: 28px; font-weight: 800; letter-spacing: -0.5px; color: #0f172a;">Página de Compras</h3>
+        <p style="margin: 0; color: #64748b; font-size: 16px;">Bem-vindo(a) à sua página de compras favorita! Confira as novidades abaixo.</p>
+    </header>
+
+    <!-- Vitrine de Produtos (Grid) -->
+    <main style="max-width: 1200px; margin: 0 auto 60px auto; padding: 0 24px; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px;">
+        
+        <!-- Produto 1 -->
+        <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); display: flex; flex-direction: column;">
+            <!-- Espaço reservado para Imagem -->
+            <div style="width: 100%; height: 320px; background-color: #f1f5f9; display: flex; align-items: center; justify-content: center; color: #94a3b8; font-size: 14px; font-weight: 500;">
+                [ Espaço da Imagem ]
+            </div>
+            <div style="padding: 16px; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <h4 style="margin: 0 0 4px 0; font-size: 16px; font-weight: 600; color: #1e293b;">Camiseta Minimalista Classic</h4>
+                    <p style="margin: 0 0 12px 0; font-size: 14px; color: #64748b;">100% Algodão Sustentável</p>
+                </div>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 8px;">
+                    <span style="font-size: 18px; font-weight: 700; color: #0f172a;">R$ 89,90</span>
+                    <button style="background-color: #4f46e5; color: #ffffff; border: none; padding: 8px 16px; border-radius: 6px; font-weight: 600; font-size: 14px; cursor: pointer;">Comprar</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Produto 2 -->
+        <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); display: flex; flex-direction: column;">
+            <!-- Espaço reservado para Imagem -->
+            <div style="width: 100%; height: 320px; background-color: #f1f5f9; display: flex; align-items: center; justify-content: center; color: #94a3b8; font-size: 14px; font-weight: 500;">
+                [ Espaço da Imagem ]
+            </div>
+            <div style="padding: 16px; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <h4 style="margin: 0 0 4px 0; font-size: 16px; font-weight: 600; color: #1e293b;">Casaco de Moletom Premium</h4>
+                    <p style="margin: 0 0 12px 0; font-size: 14px; color: #64748b;">Conforto térmico flanelado</p>
+                </div>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 8px;">
+                    <span style="font-size: 18px; font-weight: 700; color: #0f172a;">R$ 179,90</span>
+                    <button style="background-color: #4f46e5; color: #ffffff; border: none; padding: 8px 16px; border-radius: 6px; font-weight: 600; font-size: 14px; cursor: pointer;">Comprar</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Produto 3 -->
+        <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); display: flex; flex-direction: column;">
+            <!-- Espaço reservado para Imagem -->
+            <div style="width: 100%; height: 320px; background-color: #f1f5f9; display: flex; align-items: center; justify-content: center; color: #94a3b8; font-size: 14px; font-weight: 500;">
+                [ Espaço da Imagem ]
+            </div>
+            <div style="padding: 16px; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <h4 style="margin: 0 0 4px 0; font-size: 16px; font-weight: 600; color: #1e293b;">Calça Chino Slim Fit</h4>
+                    <p style="margin: 0 0 12px 0; font-size: 14px; color: #64748b;">Corte moderno e flexível</p>
+                </div>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 8px;">
+                    <span style="font-size: 18px; font-weight: 700; color: #0f172a;">R$ 149,90</span>
+                    <button style="background-color: #4f46e5; color: #ffffff; border: none; padding: 8px 16px; border-radius: 6px; font-weight: 600; font-size: 14px; cursor: pointer;">Comprar</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+</html>
