@@ -4,7 +4,7 @@ const dirBase = import.meta.dirname
 const app = express()
 const porta = 3000
 //Usando middleware (software intermediario)TODOS OS ARQ ESTATICOS
-app.use(express.static(path.join( dirBase,'publico')))
+app.use(express.static(path.join(dirBase,'publico')))
 
 //Criar as rotas do servidor
 app.get('/',(req, res) => {
